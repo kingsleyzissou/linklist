@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTogglePane?>
+<?import com.jfoenix.controls.JFXToolbar?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashboardController">
+   <left>
+      <JFXTogglePane BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="400.0" prefWidth="128.0" style="-fx-background-color: #37474f;">
+               <children>
+                  <JFXButton fx:id="t_button" onMouseClicked="#loadHomeScene" prefHeight="32.0" prefWidth="128.0" style="-fx-background-color: #37474f;" text="Home" textFill="#78909c">
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="t_button1" layoutX="10.0" layoutY="20.0" onMouseClicked="#viewTables" prefHeight="32.0" prefWidth="128.0" style="-fx-background-color: #37474f;" text="Tables" textFill="#78909c" />
+                  <JFXButton fx:id="b_button" onMouseClicked="#viewBookings" prefHeight="32.0" prefWidth="128.0" style="-fx-background-color: #37474f;" text="Bookings" textFill="#78909c" />
+                  <JFXButton fx:id="m_button" onMouseClicked="#viewMenu" prefHeight="32.0" prefWidth="128.0" style="-fx-background-color: #37474f;" text="Menu" textFill="#78909c" />
+                  <JFXButton fx:id="p_button" onMouseClicked="#viewPurchases" prefHeight="32.0" prefWidth="128.0" style="-fx-background-color: #37474f;" text="Purchases" textFill="#78909c" />
+               </children>
+            </VBox>
+         </children>
+      </JFXTogglePane>
+   </left>
+   <top>
+      <JFXToolbar prefHeight="50.0" style="-fx-background-color: #263238;" BorderPane.alignment="CENTER">
+         <right>
+            <Label text="Booking.io" textFill="WHITE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <padding>
+                  <Insets right="20.0" />
+               </padding>
+            </Label>
+         </right>
+      </JFXToolbar>
+   </top>
+</BorderPane>

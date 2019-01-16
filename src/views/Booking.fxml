@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.BookingController">
+   <children>
+      <Label layoutX="28.0" layoutY="21.0" text="Booking">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="513.0" layoutY="295.0" onMouseClicked="#cancelBooking" style="-fx-background-color: #EF3C79;" text="Cancel" textFill="WHITE" />
+      <JFXButton fx:id="checkInButton" layoutX="421.0" layoutY="295.0" onMouseClicked="#checkIn" style="-fx-background-color: #ACEC00;" text="Check In" textFill="WHITE" />
+      <JFXButton fx:id="checkOutButton" layoutX="410.0" layoutY="295.0" onMouseClicked="#checkOut" style="-fx-background-color: #BA65C9;" text="Check Out" textFill="WHITE" />
+      <JFXButton fx:id="orderButton" layoutX="304.0" layoutY="295.0" onMouseClicked="#viewOrder" style="-fx-background-color: #00BBD6;" text="View Order" textFill="WHITE" />
+      <Label layoutX="28.0" layoutY="82.0" text="Customer name:" />
+      <Label layoutX="28.0" layoutY="119.0" text="Party size:" />
+      <Label layoutX="28.0" layoutY="156.0" text="Booking time:" />
+      <Label layoutX="28.0" layoutY="193.0" text="Booking duration:" />
+      <Label layoutX="28.0" layoutY="232.0" text="Table number:" />
+      <Label fx:id="customer" layoutX="230.0" layoutY="82.0" text="Label" />
+      <Label fx:id="guests" layoutX="230.0" layoutY="119.0" text="Label" />
+      <Label fx:id="time" layoutX="230.0" layoutY="156.0" text="Label" />
+      <Label fx:id="duration" layoutX="230.0" layoutY="193.0" text="Label" />
+      <Label fx:id="tableNumber" layoutX="230.0" layoutY="232.0" text="Label" />
+      <JFXButton layoutX="28.0" layoutY="295.0" onMouseClicked="#goBack" style="-fx-background-color: #d2d2d2;" text="Back" />
+   </children>
+</AnchorPane>

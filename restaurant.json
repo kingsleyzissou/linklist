@@ -1,0 +1,248 @@
+{
+  "menu": {
+    "menuItems": {
+      "count": 2,
+      "head": {
+        "next": {
+          "data": {
+            "name": "Fish",
+            "price": 10.0
+          }
+        },
+        "data": {
+          "name": "Chips",
+          "price": 3.0
+        }
+      }
+    }
+  },
+  "tables": {
+    "count": 7,
+    "head": {
+      "next": {
+        "next": {
+          "next": {
+            "next": {
+              "next": {
+                "next": {
+                  "data": {
+                    "uuid": 2,
+                    "seats": 9,
+                    "bookings": {
+                      "count": 0
+                    },
+                    "slots": [
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false
+                    ],
+                    "orderItems": {
+                      "count": 0
+                    },
+                    "purchaseItems": {
+                      "count": 0
+                    }
+                  }
+                },
+                "data": {
+                  "uuid": 3,
+                  "seats": 8,
+                  "bookings": {
+                    "count": 0
+                  },
+                  "slots": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ],
+                  "orderItems": {
+                    "count": 0
+                  },
+                  "purchaseItems": {
+                    "count": 0
+                  }
+                }
+              },
+              "data": {
+                "uuid": 4,
+                "seats": 2,
+                "bookings": {
+                  "count": 0
+                },
+                "slots": [
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false
+                ],
+                "orderItems": {
+                  "count": 0
+                },
+                "purchaseItems": {
+                  "count": 0
+                }
+              }
+            },
+            "data": {
+              "uuid": 5,
+              "seats": 2,
+              "bookings": {
+                "count": 0
+              },
+              "slots": [
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false
+              ],
+              "orderItems": {
+                "count": 0
+              },
+              "purchaseItems": {
+                "count": 0,
+                "head": {
+                  "next": {
+                    "data": {
+                      "menuItem": {
+                        "name": "Fish",
+                        "price": 10.0
+                      },
+                      "quantity": 2
+                    }
+                  },
+                  "data": {
+                    "menuItem": {
+                      "name": "Chips",
+                      "price": 3.0
+                    },
+                    "quantity": 2
+                  }
+                }
+              }
+            }
+          },
+          "data": {
+            "uuid": 6,
+            "seats": 4,
+            "bookings": {
+              "count": 0
+            },
+            "slots": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ],
+            "orderItems": {
+              "count": 0
+            },
+            "purchaseItems": {
+              "count": 0
+            }
+          }
+        },
+        "data": {
+          "uuid": 7,
+          "seats": 4,
+          "bookings": {
+            "count": 0
+          },
+          "slots": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "orderItems": {
+            "count": 0
+          },
+          "purchaseItems": {
+            "count": 0
+          }
+        }
+      },
+      "data": {
+        "uuid": 8,
+        "seats": 3,
+        "bookings": {
+          "count": 1,
+          "head": {
+            "data": {
+              "bookingTime": "17:30",
+              "customerName": "Luigi",
+              "tableNumber": 8,
+              "bookingDuration": 2.5,
+              "numberOfGuests": 3,
+              "isCurrent": true
+            }
+          }
+        },
+        "slots": [
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          false
+        ],
+        "orderItems": {
+          "count": 1,
+          "head": {
+            "data": {
+              "menuItem": {
+                "name": "Pizza",
+                "price": 13.0
+              },
+              "quantity": 2
+            }
+          }
+        },
+        "purchaseItems": {
+          "count": 0
+        }
+      }
+    }
+  }
+}
